@@ -1,0 +1,22 @@
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+.header{
+    background-color: blue;
+}
+.header:hover{
+    background-color: crimson;
+}
+.rows{
+    background-color: darkgoldenrod;
+}
+.rows:hover{
+    background-color: darkgreen;
+}
+.rows:nth-child(odd){
+    background-color: darkkhaki;
+}
+.rows:nth-child(even){
+    background-color:navy ;
+}
